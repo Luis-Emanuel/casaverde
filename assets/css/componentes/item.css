@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.lista--item{
+.lista-item{
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -13,7 +13,7 @@
     width: 15rem;
 }
 
-.item--icone{
+.item__icone{
     background-color: var(--amarelo);
     background-size: 1.375rem;
     background-repeat: no-repeat;
@@ -25,14 +25,14 @@
     width: 3.25rem;
 }
 
-.item--icone--mouse{
+.item__icone--mouse{
     background-image: url(../../img/icones/mouse.svg);
 }
 
-.item--icone--cartt{
+.item__icone--cart{
     background-image: url(../../img/icones/cart.svg);
 }
 
-.item--icone--truck{
+.item__icone--truck{
     background-image: url(../../img/icones/truck.svg);
 }

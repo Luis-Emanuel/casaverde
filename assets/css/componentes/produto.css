@@ -1,0 +1,51 @@
+@charset "UTF-*8";
+
+.produto{
+    background-color: var(--branco);
+    box-sizing: border-box;
+    box-shadow: 10px 10px 30px var(--preto-transparente);
+    margin-bottom: 1rem;
+    min-height: 12.5rem;
+    overflow: hidden;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 50%;  
+    position: relative;
+}
+
+.produto__imagem{
+    position: absolute;
+    top: 50%;
+    left: -1.8rem;
+    transform: translateY(-50%);
+    z-index: 1;
+    min-width: 10.75rem;
+}
+
+.produto__conteudo{
+    position: relative;
+    z-index: 2;
+}
+
+.produto__titulo{
+   margin-top: 0;
+   margin-bottom: 0.5rem;
+}
+
+.produto__preco{
+   margin-bottom: 1.5rem;
+}
+.produto__comprar{
+    color: var(--amarelo);
+    display: flex;
+    align-items: center;
+}
+
+.produto__comprar--icone{
+    display: inline-block;
+    width: 0.875rem;
+    height: 0.875rem;
+    margin-left: 1.5rem;
+    background-image: url(../../img/icones/seta.svg);
+    background-size: contain;
+}
