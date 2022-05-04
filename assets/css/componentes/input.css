@@ -4,7 +4,7 @@
     background-color: var(--branco);
     border: none;
     box-sizing: border-box;
-    box-shadow: 10px 10px 30px #0000000f;
+    box-shadow: 10px 10px 30px var(--preto-transparente);
     color: inherit;
     font-family: inherit;
     font-size: inherit;
