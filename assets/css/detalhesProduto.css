@@ -1,0 +1,18 @@
+.detalhesProduto__chamada{
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+.detalhesProduto__caixa{
+    height: 10.875rem;
+    z-index: -1;
+    position: relative;
+}
+.detalhesProduto__imagem{
+    width: 26.813rem;
+    left: -15%;
+    top: -45%;
+    position: absolute;
+}
+.texto--alternativo{
+    color: var(--amarelo);
+}
