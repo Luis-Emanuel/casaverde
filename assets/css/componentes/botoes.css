@@ -13,11 +13,11 @@
     width: 100%;
 }
 .botao--alternativo{
-    background-color: unset;
-    border: 1px solid var(--amarelo);
-    box-shadow: none;
     color: var(--amarelo);
 }
 .detalhes__botao--descricao{
     margin-bottom: 1.063rem;
+    background-color: unset;
+    box-shadow: none;
+    border: 1px solid var(--amarelo);
 }
